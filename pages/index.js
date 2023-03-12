@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom'
 import React from 'react'
 import Webcam from "react-webcam";
 
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
