@@ -6,15 +6,16 @@ python3 -m venv env bash
  
 
 ## STEP 4 : Activate the virtual environment by running the following command:
-bash
+```bash
 Copy code
 source env/bin/activate
+```
 ## STEP 5 : Install the required dependencies by running the following command:
-Copy code
 pip install -r requirements.txt
 ## STEP 6 : After the installation is complete, start the server by running the following command:
-css
+```bash
 Copy code
 uvicorn main:app --reload
+```
 The server should start running and you can access it on http://localhost:8000 in your web browser.
 Note: You may need to modify the main.py file to add your own API endpoints and logic based on your specific use case. Additionally, make sure to keep your dependencies up-to-date and secure by periodically updating the requirements.txt file.
